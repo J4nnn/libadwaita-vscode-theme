@@ -1,0 +1,6 @@
+# Build & OS artifacts
+.DS_Store
+*.vsix
+__pycache__/
+*.pyc
+node_modules/

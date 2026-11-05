@@ -1,0 +1,63 @@
+{
+  "name": "libadwaita-vscode-theme",
+  "displayName": "LibAdwaita / GNOME Theme",
+  "description": "Authentic GNOME HIG & LibAdwaita 1.6+ color theme for Visual Studio Code, based on upstream LibAdwaita CSS variables and GtkSourceView 5 Adwaita style schemes.",
+  "version": "1.0.0",
+  "publisher": "J4nnn",
+  "author": {
+    "name": "Janer Vega",
+    "email": "j4nn.dev@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "adwaita",
+    "libadwaita",
+    "gnome",
+    "gtk",
+    "gtk4",
+    "gtksourceview",
+    "linux",
+    "fedora",
+    "dark",
+    "light",
+    "theme"
+  ],
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#222226",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "LibAdwaita Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/libadwaita-dark-color-theme.json"
+      },
+      {
+        "label": "LibAdwaita Light",
+        "uiTheme": "vs",
+        "path": "./themes/libadwaita-light-color-theme.json"
+      },
+      {
+        "label": "LibAdwaita Dark (High Contrast)",
+        "uiTheme": "hc-black",
+        "path": "./themes/libadwaita-dark-hc-color-theme.json"
+      },
+      {
+        "label": "LibAdwaita Light (High Contrast)",
+        "uiTheme": "hc-light",
+        "path": "./themes/libadwaita-light-hc-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "python3 src/generate_themes.py"
+  }
+}
