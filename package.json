@@ -9,6 +9,14 @@
     "email": "j4nn.dev@gmail.com"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/J4nnn/libadwaita-vscode-theme.git"
+  },
+  "homepage": "https://github.com/J4nnn/libadwaita-vscode-theme#readme",
+  "bugs": {
+    "url": "https://github.com/J4nnn/libadwaita-vscode-theme/issues"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
